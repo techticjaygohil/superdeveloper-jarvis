@@ -1,0 +1,17 @@
+{
+    "name": "superdeveloper/jarwis",
+    "description": "Creating a demo jarwis package",
+    "authors": [
+        {
+            "name": "Jay Gohil",
+            "email": "techtic.jaygohil@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JarwisServiceProvider\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
