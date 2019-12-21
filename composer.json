@@ -15,7 +15,14 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SuperDeveloper\\Jarwis\\": "src/"
+            "SuperDeveloper\\Jarwis\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SuperDeveloper\\Jarwis\\JarwisServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
