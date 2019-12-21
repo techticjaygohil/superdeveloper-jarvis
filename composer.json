@@ -8,16 +8,12 @@
         }
     ],
     "license": "MIT",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "JarwisServiceProvider\\"
-            ]
-        }
-    },
     "autoload": {
+        "classmap": [
+            "src"
+        ],
         "psr-4": {
-            "superdeveloper\\jarwis\\": "src/"
+            "Superdeveloper\\Jarwis\\": "src/"
         }
     },
     "minimum-stability": "dev",
