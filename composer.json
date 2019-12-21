@@ -10,12 +10,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SuperDeveloper\\Jarwis\\": "src/"
+            "Jarwis\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SuperDeveloper\\Jarwis\\Test\\": "tests"
+            "Jarwis\\Test\\": "tests"
         }
     },
     "extra": {
