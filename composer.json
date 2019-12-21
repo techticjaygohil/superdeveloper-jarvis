@@ -9,11 +9,8 @@
     ],
     "license": "MIT",
     "autoload": {
-        "classmap": [
-            "src"
-        ],
         "psr-4": {
-            "Superdeveloper\\Jarwis\\": "src/"
+            "JarwisServiceProvider\\": "src/"
         }
     },
     "minimum-stability": "dev",
