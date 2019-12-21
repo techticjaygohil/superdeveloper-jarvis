@@ -1,5 +1,5 @@
 {
-    "name": "superdeveloper/jarwis",
+    "name": "SuperDeveloper/Jarwis",
     "description": "Creating a demo jarwis package",
     "authors": [
         {
@@ -10,7 +10,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "JarwisServiceProvider\\": "src/"
+            "SuperDeveloper\\Jarwis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SuperDeveloper\\Jarwis\\": "src/"
         }
     },
     "minimum-stability": "dev",
