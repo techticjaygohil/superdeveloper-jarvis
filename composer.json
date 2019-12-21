@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "JarwisServiceProvider\\": "src/"
+            "superdeveloper\\jarwis\\": "src/"
         }
     },
     "minimum-stability": "dev",
